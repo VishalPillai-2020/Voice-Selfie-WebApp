@@ -1,0 +1,44 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nrEHfsRQhRMFg8UIwJQODYVNoufDn-8U6lss-v5cbgzrbKOSj4lTAYKL64D3RJNzflgI35YIkfJupPepeQiG9bpswuEC6SYaGx8RPTNU_7TEshEoWzh7DEEF_BxaEJ--GaLVP_jyj-Wf9lbgzaYTjqeCDGZIZKElhWYNrSUj5I4XQIM8rUcIIZ38B2YtaYhLe6wG-Wkfr0Da1Zkj845O1AnZZFYCRjsOSORxKOmmmtOATKbtL_wV9-aah0-xX-3l_7y1eYHC0MnaZDcPXjAPvsRXgg3PxyOIqnBoqGm5UgKm1ufTyeKkMcQ4M1HLqgVLzSf4YZnRPE0WIq21tHnP-7V5AOIK6QF-7QjafQ94VvhdLuVsNcERg5UDlL01oto3idMRYsmJYBiiGJMcNFt2woxg2JXRh-JCgrrVUvgiEXEJEYth2C1qC1zwFpDRoKjP-uXQK3NzyXdj3jZr6beYNw" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <a id="link" href="" download="selfie.png"></a>
+    <div class="container">
+    <center>
+        <h1>Voice Selfie App 
+
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3>Say "take my selfie"</h3>
+            <label>Your voice output : </label>
+            <textarea id="textbox" class="form-control" readonly="true"></textarea>
+        </div>
+
+        <p>Press the Start button</p>
+        <button id="start-btn" class="btn btn-primary" onclick="start ()">Start</button><br><br>
+
+        <label>Your webcam : </label>
+<div id="camera"></div>
+        <br>
+
+        <label>Your selfie Will Display Here: </label>
+<div id="result"></div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
